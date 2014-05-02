@@ -1,0 +1,59 @@
+@charset "utf-8";
+html, body { width: 100%; height: 100%; font-family: "ProximaNova-Bold",Helvetica,Arial,sans-serif; }
+
+p { color: white; font-family: 'Dosis'}
+
+.navigation { position: fixed; background-color: rgba(8, 64, 29, 0.75); z-index: 1; width: 100%; height: 100px; }
+.navigation #logo { font-family: 'Dosis', cursive; padding-top: 1%; font-size: 2em; }
+.navigation nav { color: white; text-align: center; }
+.navigation nav #menu { display: block; padding-top: 1.2em; font-family:  'Dosis'}
+.navigation nav #menu:hover { background-color: rgba(8, 64, 29, 0.75); height: 100px; }
+
+.slide { background-attachment: fixed; width: 100%; height: 100%; position: relative; box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.3); }
+
+.slider { background-attachment: fixed; width: 100%; height: 100%; position: relative; }
+
+#home { background-image: url(../img/escuela.png); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding-top: 17%; }
+#home #inicio { background-color: rgba(0, 0, 0, 0.4); }
+#home h1 { color: white; font-size: 4.5em; line-height: 1; font-weight: normal; text-rendering: optimizelegibility; text-align: center; font-family: 'Dosis' }
+#home p { text-align: center; color: #B18904}
+#home p span { line-height: 1; font-weight: normal; text-rendering: optimizelegibility; text-align: center; font-size: 30px; }
+
+#middle_agenda { background-image: url(../img/01.jpg); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+
+#agenda { background-color: white; width: 100%; height: 100%; padding-top: 7em; padding-left: 1em; }
+#agenda h2 { font-size: 4em; line-height: 1; font-weight: bold; text-rendering: optimizelegibility; text-align: center; color: #B68611; font-family: 'Dosis'}
+#agenda h3 { font-size: 2em; line-height: 1; font-weight: bold; text-rendering: optimizelegibility; text-align: justify; color: #DFA61D; font-family: 'Dosis'}
+#agenda p { color: black; }
+
+#middle_conferencistas{ background-image: url(../img/2.jpg); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+
+#conferencistas { background-color: white; width: 100%; height: 100%; padding-top: 7em; padding-left: 1em; }
+#conferencistas h2 { font-size: 4em; line-height: 1; font-weight: bold; text-rendering: optimizelegibility; text-align: center; color: #B68611; font-family: 'Dosis'}
+.circular {
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(../img/x.jpg) no-repeat;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	}
+
+#middle_eventos{ background-image: url(../img/3.jpg); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+
+#eventos { background-color: white; width: 100%; height: 100%; padding-top: 7em; padding-left: 1em; }
+#eventos h2 { font-size: 4em; line-height: 1; font-weight: bold; text-rendering: optimizelegibility; text-align:center; color: #B68611; font-family: 'Dosis' }
+#eventos p span { line-height: 1; font-weight: normal; text-rendering: optimizelegibility; text-align: center; font-size: 30px; color:#38610B; }
+#eventos p  {color:#38610B; font-size: 20px;}
+
+#middle_contacto{ background-image: url(../img/4.jpg); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+
+#contacto { background-color: white; width: 100%; height: 100%; padding-top: 7em; padding-left: 1em; }
+#contacto h2 { font-size: 4em; line-height: 1; font-weight: bold; text-rendering: optimizelegibility; text-align: center; color: #B68611; font-family: 'Dosis'}
+#contacto h5 { font-size: 2em; line-height: 1; font-weight: bold; text-rendering: optimizelegibility; text-align: center; color: #38610B ; font-family: 'Dosis'}
+#contacto h3 { font-size: 2em; line-height: 1; font-weight: bold; text-rendering: optimizelegibility; text-align: center; color: #38610B; font-family: 'Dosis'}
+
+
